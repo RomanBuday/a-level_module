@@ -74,12 +74,15 @@
       display: block;
       color: var(--light-color);
       text-align: center;
-      transition: .3s;
+      transition: .7s;
       &:hover {
         color: var(--dark-color);
       }
     }
   }
+}
+.burger {
+  @include burger;
 }
 
 @media (max-width: 767px) {
