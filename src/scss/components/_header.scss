@@ -1,5 +1,5 @@
 .header {
-  background: var(--bkg-color);
+  background: var(--first-bkg-color);
   min-height: 100vh;
   &__logo {
     width: 96px;
@@ -30,14 +30,14 @@
       color: var(--dark-color);
       position: relative;
       &:hover {
-        color: var(--btn-color);
+        color: var(--accent-color);
         &::after {
           width: 90%;
           margin: 0 auto;
         }
       }
       &::after {
-        background-color: var(--btn-color);
+        background-color: var(--accent-color);
         display: block;
         position: absolute;
         content: "";
@@ -70,15 +70,7 @@
   }
   &__btn {
     margin-top: 60px;
-    &-link {
-      display: block;
-      color: var(--light-color);
-      text-align: center;
-      transition: .7s;
-      &:hover {
-        color: var(--dark-color);
-      }
-    }
+    padding-bottom: 143px;
   }
 }
 .burger {

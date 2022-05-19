@@ -8,11 +8,17 @@
 
 // подключения компонентов страницы
 @import "./components/header";
+@import "./components/about";
+@import "./components/skills";
+@import "./components/work";
+@import "./components/gallery";
+@import "./components/feedback";
 
-// тестовые стили, удалите их
-// .page__body {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   height: var(--vh);
-// }
+.content {
+  width: 540px;
+  padding-top: 50px;
+  color: var(--main-color);
+  line-height: 26px;
+  text-align: center;
+  margin: 0 auto;
+}

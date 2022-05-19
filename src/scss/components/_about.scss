@@ -1,0 +1,37 @@
+.about {
+  padding-top: 122px;
+  background-color: var(--second-bkg-color);
+  &__title {
+    text-align: center;
+  }
+  &__subtitle {
+    color: var(--light-color);
+  }
+  &__bottom {
+    background: var(--accent-color);
+    margin-top: 100px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 250px;
+    color: var(--light-color);
+  }
+  &__item {
+    display: flex;
+    margin-right: 49px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &-icon {
+      margin-right: 20px;
+    }
+    &-content {
+      align-self: center;
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+}
