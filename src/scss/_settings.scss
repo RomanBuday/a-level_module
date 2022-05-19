@@ -105,3 +105,12 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
+
+.content {
+  width: 540px;
+  padding-top: 50px;
+  color: var(--main-color);
+  line-height: 26px;
+  text-align: center;
+  margin: 0 auto;
+}

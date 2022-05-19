@@ -33,3 +33,61 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .skills {
+    &__container {
+      width: 100%;
+      padding: 40px 20px;
+    }
+    &__left {
+      width: 50%;
+      padding-right: 20px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .skills {
+    &__left {
+      width: 100%;
+    }
+    &__title {
+      margin-bottom: 0;
+    }
+    &__item {
+      width: 100%;
+      margin-top: 20px;
+    }
+    &__panel {
+      margin-top: 15px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    &__title {
+      font-size: 28px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .skills {
+    &__container {
+      flex-direction: column-reverse;
+    }
+    &__left {
+      padding: 0;
+    }
+    &__title {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 452px) {
+
+}
+

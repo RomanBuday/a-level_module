@@ -30,3 +30,28 @@
     }
   }
 }
+@media (max-width: 1200px) {
+  .work {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+  .work {
+    &__video {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 452px) {
+
+}
